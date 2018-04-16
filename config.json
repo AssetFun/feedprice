@@ -1,0 +1,24 @@
+{
+"host":"127.0.0.1",
+"port":11014,
+"password":"123",
+"login_account":"nathan",
+"witnesses":[],
+"witness_config_file":"/mnt/hgfs/assetfun/witness_node_data_dir/config.ini",
+"interval":10,
+"time_offset":60,
+"log_file":"./log/feed_price.log",
+"feed_price":{
+        "Bitfinex":{
+            "BTC/USD":"price_assetfun_get_price.GetPrice",
+            "ETH/USD":"price_assetfun_get_price.GetPrice",
+            "BCH/USD":"price_assetfun_get_price.GetPrice",
+            "LTC/USD":"price_assetfun_get_price.GetPrice"
+        },
+        "Poloniex":{
+            "BCH/BTC":"price_assetfun_get_price.GetPrice",
+            "ETH/BTC":"price_assetfun_get_price.GetPrice",
+            "LTC/BTC":"price_assetfun_get_price.GetPrice"
+        } 
+    }   
+}

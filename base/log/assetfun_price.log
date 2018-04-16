@@ -1,0 +1,12 @@
+[2018-04-16 16:46:11,011] [price_assetfun_get_price.py][line:72] [INFO] https://price.assetfun.net/api/strategy/getHistoryPrice?date_start=1523868720&date_end=1523868720&symbol=btc_usd&platform=Bitfinex
+[2018-04-16 16:46:12,874] [price_assetfun_get_price.py][line:78] [INFO] b'{"status":-1,"info":null,"msg":"data is nonexistent"}'
+[2018-04-16 16:46:12,876] [price_assetfun_get_price.py][line:85] [ERROR] price[timestamp=1523868720] source is unnormal[status:-404]
+[2018-04-16 16:46:22,876] [price_assetfun_get_price.py][line:72] [INFO] https://price.assetfun.net/api/strategy/getHistoryPrice?date_start=1523868720&date_end=1523868720&symbol=btc_usd&platform=Bitfinex
+[2018-04-16 16:46:24,873] [price_assetfun_get_price.py][line:78] [INFO] b'{"status":-1,"info":null,"msg":"data is nonexistent"}'
+[2018-04-16 16:46:24,875] [price_assetfun_get_price.py][line:85] [ERROR] price[timestamp=1523868720] source is unnormal[status:-404]
+[2018-04-16 16:46:42,181] [price_assetfun_get_price.py][line:72] [INFO] https://price.assetfun.net/api/strategy/getHistoryPrice?date_start=1523868000&date_end=1523868000&symbol=btc_usd&platform=Bitfinex
+[2018-04-16 16:46:43,766] [price_assetfun_get_price.py][line:78] [INFO] b'[[1523868000,"8105.80000000","2"]]'
+[2018-04-16 16:46:53,804] [price_assetfun_get_price.py][line:72] [INFO] https://price.assetfun.net/api/strategy/getHistoryPrice?date_start=1523868000&date_end=1523868000&symbol=btc_usd&platform=Bitfinex
+[2018-04-16 16:46:55,159] [price_assetfun_get_price.py][line:78] [INFO] b'[[1523868000,"8105.80000000","2"]]'
+[2018-04-16 16:47:05,162] [price_assetfun_get_price.py][line:72] [INFO] https://price.assetfun.net/api/strategy/getHistoryPrice?date_start=1523868060&date_end=1523868060&symbol=btc_usd&platform=Bitfinex
+[2018-04-16 16:47:06,496] [price_assetfun_get_price.py][line:78] [INFO] b'[[1523868060,"8106.70000000","2"]]'
